@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(imgs/background2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.nav-items{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-items li{
+    padding: 50px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+
+.nav-items a{
+
+    color: yellow;
+    
+    
+}
+
+.nav-items a:hover{
+    color: white;
+
+}
+
+.nav-items a:active{
+    color: yellowgreen;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    font-size: 20px;
+    
+
+}
+
+#homeTitle{
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.home img{
+    height: 100px;
+    width: 100px;
+    margin-left:15px;
+}
+
+footer{
+    color: aliceblue;
+    margin-top:18%;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutMe{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+
+ .aboutMe h1{
+    position: absolute;
+    margin-bottom: 30%;
+    color: white;
+
+ }   
+
+
+.container{
+    background-image: url(imgs/gradyellow.png);
+    width: 720px;
+    height: 360px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.container img{
+    width: 620px;
+    height: 360px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.container img:hover{
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+
+.container p{
+    padding-left: 15px;
+    padding-right: 10px;
+    font-size: 17px;
+    color: black;
+}
+
+.habilities{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.habilities h1{
+    position: absolute;
+    margin-bottom: 32%;
+    color: white;
+ } 
+
+ .containers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 160px;
+    margin-top: 88px;
+ }
+
+ .skills{
+    background-image: url(imgs/gradyellow.png);
+    border-radius: 20px;
+    width: 220px;
+    height: 320px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.skills h1{
+    background-color: purple;
+
+}
+
+.skills ul li{
+    list-style: none;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+
+.containerActivities{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(imgs/gradyellow.png);
+    height: 360px;
+    width: 800px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.containerActivities p{
+    margin-left: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    font-size: 17px;
+    color: black;
+}
+
+.activities{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.activities h1{
+    position: absolute;
+    margin-bottom: 32%;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 2em;
+    margin-top: 40px;
+
+}
+
+.containerActivities img{
+    width: 700px;
+    height: 350px;
+    padding-left: 5px;
+    border-radius: 20px;
+}
+
